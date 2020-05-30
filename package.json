@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config=./jest.config.js"
+  },
+  "engines": {
+    "node": "=12.17"
+  }
+}
